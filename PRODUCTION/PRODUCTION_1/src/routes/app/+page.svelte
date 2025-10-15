@@ -99,9 +99,9 @@
 							<p class="text-gray-600 dark:text-gray-400 text-sm">
 								Take notes with AI-powered suggestions and organization
 							</p>
-							<button class="btn btn-primary mt-4 w-full" disabled>
-								Coming Soon
-							</button>
+							<a href="/app/notes" class="btn btn-primary mt-4 w-full block text-center">
+								Take Notes
+							</a>
 						</div>
 					</div>
 
@@ -117,9 +117,9 @@
 							<p class="text-gray-600 dark:text-gray-400 text-sm">
 								Set intelligent reminders with natural language
 							</p>
-							<button class="btn btn-primary mt-4 w-full" disabled>
-								Coming Soon
-							</button>
+							<a href="/app/reminders" class="btn btn-primary mt-4 w-full block text-center">
+								Set Reminders
+							</a>
 						</div>
 					</div>
 				</div>
