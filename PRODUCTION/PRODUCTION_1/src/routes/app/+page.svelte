@@ -43,6 +43,9 @@
 					<span class="text-sm text-gray-600 dark:text-gray-300">
 						Welcome, {data.user.name}
 					</span>
+					<a href="/app/settings" class="btn btn-secondary text-sm">
+						Settings
+					</a>
 					<button
 						on:click={handleLogout}
 						class="btn btn-secondary text-sm"
