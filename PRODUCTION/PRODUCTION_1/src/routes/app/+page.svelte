@@ -81,9 +81,9 @@
 							<p class="text-gray-600 dark:text-gray-400 text-sm">
 								Chat with your AI assistant powered by local models
 							</p>
-							<button class="btn btn-primary mt-4 w-full" disabled>
-								Coming Soon
-							</button>
+							<a href="/app/chat" class="btn btn-primary mt-4 w-full block text-center">
+								Start Chatting
+							</a>
 						</div>
 					</div>
 
