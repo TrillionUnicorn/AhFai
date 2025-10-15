@@ -1,3 +1,5 @@
+@import 'tailwindcss';
+
 /* Global styles for AhFai */
 * {
 	box-sizing: border-box;
