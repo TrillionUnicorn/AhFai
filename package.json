@@ -1,46 +1,47 @@
 {
-	"name": "ahfai",
-	"private": true,
-	"version": "0.0.1",
-	"type": "module",
-	"scripts": {
-		"dev": "vite dev",
-		"build": "vite build",
-		"preview": "vite preview",
-		"prepare": "svelte-kit sync || echo ''",
-		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
-		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-		"format": "prettier --write .",
-		"lint": "prettier --check .",
-		"test": "playwright test",
-		"test:ui": "playwright test --ui",
-		"test:headed": "playwright test --headed",
-		"test:debug": "playwright test --debug",
-		"test:report": "playwright show-report"
-	},
-	"dependencies": {
-		"chart.js": "^4.4.6",
-		"gsap": "^3.12.5"
-	},
-	"devDependencies": {
-		"@playwright/test": "^1.56.0",
-		"@sveltejs/adapter-auto": "^3.3.1",
-		"@sveltejs/kit": "^2.8.5",
-		"@sveltejs/vite-plugin-svelte": "^5.0.3",
-		"@types/bun": "^1.1.14",
-		"autoprefixer": "^10.4.21",
-		"postcss": "^8.5.6",
-		"prettier": "^3.4.2",
-		"prettier-plugin-svelte": "^3.3.2",
-		"svelte": "^5.15.0",
-		"svelte-check": "^4.1.1",
-		"tailwindcss": "^3.4.18",
-		"typescript": "^5.7.2",
-		"vite": "^6.0.5"
-	},
-	"trustedDependencies": [
-		"@sveltejs/kit",
-		"esbuild",
-		"svelte-preprocess"
-	]
+  "name": "ahfai",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "prepare": "svelte-kit sync || echo ''",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+    "format": "prettier --write .",
+    "lint": "prettier --check .",
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:report": "playwright show-report"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.6",
+    "gsap": "^3.12.5"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "@sveltejs/adapter-auto": "^3.3.1",
+    "@sveltejs/kit": "^2.8.5",
+    "@sveltejs/vite-plugin-svelte": "^5.0.3",
+    "@types/bun": "^1.1.14",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "prettier": "^3.4.2",
+    "prettier-plugin-svelte": "^3.3.2",
+    "svelte": "^5.15.0",
+    "svelte-check": "^4.1.1",
+    "tailwindcss": "^3.4.18",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.5"
+  },
+  "trustedDependencies": [
+    "@sveltejs/kit",
+    "esbuild",
+    "svelte-preprocess"
+  ],
+  "packageManager": "pnpm@11.4.0"
 }
